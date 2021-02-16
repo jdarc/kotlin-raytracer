@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene ambient="202020">
+    <light x="100.0" y="300.0" z="-125.0" color="EEEEAA"/>
+    <light x="-250.0" y="190.0" z="190.0" color="AAAAEE"/>
+
+    <material name="ball" type="SOLID" diffuse="DD4010" specular="FFFFFF" reflectivity="0.4"/>
+    <material name="ground" type="CHECKERED" altColor="0F0F28" diffuse="D0D0D0"/>
+
+    <geometry type="PLANE" material="ground" x="0" y="1" z="0" distance="-30.0"/>
+    <geometry type="SPHERE" material="ball" x="0" y="30" z="0" radius="60"/>
+</scene>

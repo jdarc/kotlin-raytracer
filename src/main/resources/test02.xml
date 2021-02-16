@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene ambient="202020">
+    <light x="100.0" y="300.0" z="-125.0" color="EEEEAA"/>
+    <light x="-250.0" y="190.0" z="190.0" color="AAAAEE"/>
+
+    <material name="redBall" type="SOLID" diffuse="F03010" specular="FFFFFF" reflectivity="0.3"/>
+    <material name="greenBox" type="SOLID" diffuse="70DD10" specular="FFFFFF" reflectivity="0.1"/>
+    <material name="blueCylinder" type="SOLID" diffuse="1070DD" specular="FFFFFF" reflectivity="0.15"/>
+    <material name="checkeredGround" type="CHECKERED" altColor="0F0F28" diffuse="D0D0D0"/>
+
+    <geometry type="PLANE" material="checkeredGround" x="0" y="1" z="0" distance="-30.0"/>
+
+    <geometry type="SPHERE" material="redBall" x="-80.0" y="-10.0" z="30.0" radius="20.0"/>
+    <geometry type="SPHERE" material="redBall" x="-40.0" y="-10.0" z="-40.0" radius="10.0"/>
+    <geometry type="SPHERE" material="redBall" x="-30.0" y="-0.0" z="0.0" radius="30.0"/>
+    <geometry type="SPHERE" material="redBall" x="30.0" y="-0.0" z="0.0" radius="30.0"/>
+    <geometry type="SPHERE" material="redBall" x="80.0" y="-10.0" z="-30.0" radius="20.0"/>
+    <geometry type="SPHERE" material="redBall" x="0.0" y="30.0" z="60.0" radius="20.0"/>
+
+    <geometry type="BOX" material="greenBox" xmin="-20.0" ymin="-30.0" zmin="40.0" xmax=" 20.0" ymax="10.0" zmax="80.0"/>
+    <geometry type="BOX" material="greenBox" xmin="-40.0" ymin="-30.0" zmin="140.0" xmax=" 40.0" ymax="50.0" zmax="180.0"/>
+    <geometry type="BOX" material="greenBox" xmin="-80.0" ymin="-30.0" zmin="100.0" xmax="-50.0" ymax="-10.0" zmax="140.0"/>
+
+    <geometry type="CYLINDER" material="blueCylinder" x="-90.0" y="-30.0" z="80.0" radius="10.0" height="123.0"/>
+    <geometry type="CYLINDER" material="blueCylinder" x="90.0" y="-30.0" z="80.0" radius="10.0" height="123.0"/>
+    <geometry type="CYLINDER" material="blueCylinder" x="-90.0" y="-30.0" z="-80.0" radius="10.0" height="123.0"/>
+    <geometry type="CYLINDER" material="blueCylinder" x="90.0" y="-30.0" z="-80.0" radius="10.0" height="123.0"/>
+    <geometry type="CYLINDER" material="blueCylinder" x="80.0" y="-30.0" z="-30.0" radius="40.0" height="10.0"/>
+</scene>
